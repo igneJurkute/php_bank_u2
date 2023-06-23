@@ -1,0 +1,116 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.bank-card {
+    width: 1000px;
+    height: 500px;
+}
+.php-bank {
+    background-color: #e6b738;
+    color: #463402;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight:bold;
+}
+.index-card {
+    background-color: #ecd38f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .sign-in {
+        width: fit-content;
+        height: fit-content;
+        font-size: 40px;
+    }
+}
+.card-header {
+    background-color: #e6b738;
+    color: #463402;
+    text-align: center;
+}
+.card {
+    margin: 30px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar {
+    background-color: #e6b738;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    .navbar-brand {
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    
+}
+.navbar-space {
+    margin-left: 900px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.add-money {
+    background-color: #ecd38f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.back-to {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.new-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-align {
+    text-align: center;
+}
+
+.btn-act {
+    width: 300px;
+}
+
+.alert {
+    margin: 30px 0;
+}
+
+.alert-mini {
+    margin: 16px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        color: grey;
+    }
+}
+
+.navbar-brand {
+    img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+td {
+    line-height: 35px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.balance-bg {
+    background: #2d5b8a;
+}
